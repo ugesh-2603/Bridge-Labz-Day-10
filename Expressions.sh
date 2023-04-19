@@ -9,7 +9,12 @@ read -p "Enter the value of c: " c
 
 
 
+
 sum=$(awk "BEGIN {print $a + $b * $c}")
+
+sum=$(awk "BEGIN {print $c + $a / $b}")
+
+
 
 echo " The Sum Of Numbers " $sum
 
